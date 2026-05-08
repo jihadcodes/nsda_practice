@@ -1,0 +1,38 @@
+.container {
+  max-width: 1240px !important;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-link:hover {
+  color: #0d6efd !important;
+  transition: color 0.3s ease;
+  
+}
+.nav-link {
+  font-weight: 400;
+}
+
+ .carousel-item img {
+  height: 700px;
+  object-fit: cover;
+}
+
+.about_img {
+  height: 400px;
+  object-fit: cover;
+  
+}
+
+/* Mission Vision Card Hover */
+.card {
+  border: none;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
